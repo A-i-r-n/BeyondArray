@@ -16,6 +16,7 @@
 		8428612F1ECD9AF400921218 /* BeyondArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428612E1ECD9AF400921218 /* BeyondArrayTests.m */; };
 		8428613A1ECD9AF400921218 /* BeyondArrayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842861391ECD9AF400921218 /* BeyondArrayUITests.m */; };
 		8428614A1ECD9B0300921218 /* NSArray+AirCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 842861491ECD9B0300921218 /* NSArray+AirCategory.m */; };
+		8428614D1ECD9C2A00921218 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428614C1ECD9C2A00921218 /* NSString+STRegex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8428613B1ECD9AF400921218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842861481ECD9B0300921218 /* NSArray+AirCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AirCategory.h"; sourceTree = "<group>"; };
 		842861491ECD9B0300921218 /* NSArray+AirCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AirCategory.m"; sourceTree = "<group>"; };
+		8428614C1ECD9C2A00921218 /* NSString+STRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STRegex.m"; sourceTree = "<group>"; };
+		8428614E1ECD9C5800921218 /* NSString+STRegex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+STRegex.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		842861131ECD9AF400921218 /* BeyondArray */ = {
 			isa = PBXGroup;
 			children = (
+				8428614B1ECD9C2A00921218 /* CheckString */,
 				842861471ECD9B0300921218 /* NSArray+Category */,
 				842861171ECD9AF400921218 /* AppDelegate.h */,
 				842861181ECD9AF400921218 /* AppDelegate.m */,
@@ -151,6 +155,15 @@
 				842861491ECD9B0300921218 /* NSArray+AirCategory.m */,
 			);
 			path = "NSArray+Category";
+			sourceTree = "<group>";
+		};
+		8428614B1ECD9C2A00921218 /* CheckString */ = {
+			isa = PBXGroup;
+			children = (
+				8428614E1ECD9C5800921218 /* NSString+STRegex.h */,
+				8428614C1ECD9C2A00921218 /* NSString+STRegex.m */,
+			);
+			path = CheckString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8428614D1ECD9C2A00921218 /* NSString+STRegex.m in Sources */,
 				8428611C1ECD9AF400921218 /* ViewController.m in Sources */,
 				8428614A1ECD9B0300921218 /* NSArray+AirCategory.m in Sources */,
 				842861191ECD9AF400921218 /* AppDelegate.m in Sources */,
@@ -521,6 +535,7 @@
 				842861401ECD9AF400921218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842861411ECD9AF400921218 /* Build configuration list for PBXNativeTarget "BeyondArrayTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +544,7 @@
 				842861431ECD9AF400921218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842861441ECD9AF400921218 /* Build configuration list for PBXNativeTarget "BeyondArrayUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +553,7 @@
 				842861461ECD9AF400921218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
