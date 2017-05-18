@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NSArray+AirCategory.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSMutableArray *mapArray = [NSMutableArray arrayWithObjects:@"1",@"2", nil];
+    
+    NSString *str = [mapArray objectAtIndexCheck:3];
+    
+    
 }
 
 

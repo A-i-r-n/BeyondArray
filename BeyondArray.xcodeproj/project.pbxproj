@@ -15,6 +15,7 @@
 		842861241ECD9AF400921218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842861221ECD9AF400921218 /* LaunchScreen.storyboard */; };
 		8428612F1ECD9AF400921218 /* BeyondArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428612E1ECD9AF400921218 /* BeyondArrayTests.m */; };
 		8428613A1ECD9AF400921218 /* BeyondArrayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842861391ECD9AF400921218 /* BeyondArrayUITests.m */; };
+		8428614A1ECD9B0300921218 /* NSArray+AirCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 842861491ECD9B0300921218 /* NSArray+AirCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		842861351ECD9AF400921218 /* BeyondArrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeyondArrayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842861391ECD9AF400921218 /* BeyondArrayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeyondArrayUITests.m; sourceTree = "<group>"; };
 		8428613B1ECD9AF400921218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842861481ECD9B0300921218 /* NSArray+AirCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AirCategory.h"; sourceTree = "<group>"; };
+		842861491ECD9B0300921218 /* NSArray+AirCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AirCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		842861131ECD9AF400921218 /* BeyondArray */ = {
 			isa = PBXGroup;
 			children = (
+				842861471ECD9B0300921218 /* NSArray+Category */,
 				842861171ECD9AF400921218 /* AppDelegate.h */,
 				842861181ECD9AF400921218 /* AppDelegate.m */,
 				8428611A1ECD9AF400921218 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				8428613B1ECD9AF400921218 /* Info.plist */,
 			);
 			path = BeyondArrayUITests;
+			sourceTree = "<group>";
+		};
+		842861471ECD9B0300921218 /* NSArray+Category */ = {
+			isa = PBXGroup;
+			children = (
+				842861481ECD9B0300921218 /* NSArray+AirCategory.h */,
+				842861491ECD9B0300921218 /* NSArray+AirCategory.m */,
+			);
+			path = "NSArray+Category";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8428611C1ECD9AF400921218 /* ViewController.m in Sources */,
+				8428614A1ECD9B0300921218 /* NSArray+AirCategory.m in Sources */,
 				842861191ECD9AF400921218 /* AppDelegate.m in Sources */,
 				842861161ECD9AF400921218 /* main.m in Sources */,
 			);
